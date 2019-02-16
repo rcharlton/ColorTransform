@@ -12,6 +12,9 @@
 		00499256221804740054F97C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00499254221804740054F97C /* Main.storyboard */; };
 		00499258221804750054F97C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00499257221804750054F97C /* Assets.xcassets */; };
 		0049925B221804750054F97C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00499259221804750054F97C /* LaunchScreen.storyboard */; };
+		00499265221804C50054F97C /* EllipseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00499262221804C40054F97C /* EllipseView.swift */; };
+		00499266221804C50054F97C /* UIColor+Transformed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00499263221804C40054F97C /* UIColor+Transformed.swift */; };
+		00499267221804C50054F97C /* SwatchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00499264221804C40054F97C /* SwatchView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,10 @@
 		00499257221804750054F97C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0049925A221804750054F97C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0049925C221804750054F97C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00499262221804C40054F97C /* EllipseView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EllipseView.swift; sourceTree = "<group>"; };
+		00499263221804C40054F97C /* UIColor+Transformed.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Transformed.swift"; sourceTree = "<group>"; };
+		00499264221804C40054F97C /* SwatchView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwatchView.swift; sourceTree = "<group>"; };
+		00499268221812B60054F97C /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +45,7 @@
 		00499244221804740054F97C = {
 			isa = PBXGroup;
 			children = (
+				00499268221812B60054F97C /* README.md */,
 				0049924F221804740054F97C /* ColorTransform */,
 				0049924E221804740054F97C /* Products */,
 			);
@@ -55,6 +63,9 @@
 			isa = PBXGroup;
 			children = (
 				00499250221804740054F97C /* AppDelegate.swift */,
+				00499262221804C40054F97C /* EllipseView.swift */,
+				00499264221804C40054F97C /* SwatchView.swift */,
+				00499263221804C40054F97C /* UIColor+Transformed.swift */,
 				00499252221804740054F97C /* ViewController.swift */,
 				00499254221804740054F97C /* Main.storyboard */,
 				00499257221804750054F97C /* Assets.xcassets */,
@@ -135,6 +146,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00499265221804C50054F97C /* EllipseView.swift in Sources */,
+				00499266221804C50054F97C /* UIColor+Transformed.swift in Sources */,
+				00499267221804C50054F97C /* SwatchView.swift in Sources */,
 				00499253221804740054F97C /* ViewController.swift in Sources */,
 				00499251221804740054F97C /* AppDelegate.swift in Sources */,
 			);
