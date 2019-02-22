@@ -14,7 +14,7 @@ class ViewController: UIViewController {
         static let transforms = [lighter, normal, darker]
 
         private static let normal = UIColor.Transform.identity
-        private static let darker = UIColor.Transform(hue: h, saturation: +s, brightness: -b)
+        private static let darker = UIColor.Transform(hue: +h, saturation: +s, brightness: -b)
         private static let lighter = UIColor.Transform(hue: -h, saturation: -s, brightness: +b)
 
         private static let h: CGFloat = 6       // degrees
