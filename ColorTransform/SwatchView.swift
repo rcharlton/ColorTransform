@@ -1,6 +1,6 @@
 //
 //  SwatchView.swift
-//  UIExperiments
+//  ColorTransform
 //
 //  Created by Robin Charlton on 20/01/2019.
 //  Copyright © 2019 Robin Charlton. All rights reserved.

@@ -1,6 +1,6 @@
 //
 //  UIColor+Transformed.swift
-//  UIExperiments
+//  ColorTransform
 //
 //  Created by Robin Charlton on 17/01/2018.
 //  Copyright © 2018 Robin Charlton. All rights reserved.
@@ -48,6 +48,7 @@ extension UIColor {
 
         return result
     }
+    
 }
 
 private extension CGFloat {
